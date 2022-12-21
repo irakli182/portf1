@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react/static/css/main.5a4dc39e.css",
+    "main.js": "/react/static/js/main.cd1a292f.js",
+    "static/media/spaceman.png": "/react/static/media/spaceman.edc9eae30e96aa880c89.png",
+    "static/media/tbilisi.jpg": "/react/static/media/tbilisi.6888e137ec9647803ef2.jpg",
+    "static/media/saturn.png": "/react/static/media/saturn.abe76527d458108690d3.png",
+    "static/media/rocket.png": "/react/static/media/rocket.e707a5bf3a499be5d8d6.png",
+    "static/media/moon-back.png": "/react/static/media/moon-back.6ccf9373ac29487837d7.png",
+    "static/media/cofe.png": "/react/static/media/cofe.c08049252b2dec4dd273.png",
+    "static/media/book.png": "/react/static/media/book.455f38f24b318a331e3e.png",
+    "static/media/idea.png": "/react/static/media/idea.7b2ad21adaf8d98ef457.png",
+    "static/media/sky.png": "/react/static/media/sky.62f2ae63e80fc8ae70a7.png",
+    "static/media/halfmoon.png": "/react/static/media/halfmoon.5d0a4693dd1e915a39b6.png",
+    "static/media/moon.png": "/react/static/media/moon.46ce6985eaa5e6311c61.png",
+    "static/media/moon1.png": "/react/static/media/moon1.0f0423dd12d65df7a2af.png",
+    "index.html": "/react/index.html",
+    "main.5a4dc39e.css.map": "/react/static/css/main.5a4dc39e.css.map",
+    "main.cd1a292f.js.map": "/react/static/js/main.cd1a292f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a4dc39e.css",
+    "static/js/main.cd1a292f.js"
+  ]
+}
