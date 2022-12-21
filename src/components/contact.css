@@ -1,0 +1,220 @@
+
+
+.contactdiv {
+    display: flex;
+    height: 100px;
+}
+
+
+.contact {
+    margin: 0;
+    padding: 0;
+}
+
+.touch {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 0, 51);
+    padding-top: 400px;
+    padding-left: 8vw;
+    margin-bottom: 2vw;
+    font-size: 6rem;
+}
+
+.linesthree {
+    padding: 0;
+    margin: 0;
+    padding-left: 7vw;
+}
+
+.mail {
+    color: white;
+    font-size: 2rem;
+    padding-left: 8vw;
+    display: flex;
+}
+
+.number {
+    color: white;
+    font-size: 2rem;
+    padding-left: 8vw;
+    padding-top: 20px;
+    display: flex;
+}
+
+.halfmoon {
+    position: absolute;
+    width: 100px;
+    padding-left: 350px;
+    padding-top: 400px;
+}
+
+.rocket {
+    width: 700px;
+    padding-left: 300px;
+    padding-top: 350px;
+}
+
+.socials {
+    padding-left: 8vw;
+    display: flex;
+}
+
+.socials * {
+    padding-top: 20px;
+    padding-right: 1.5vw;
+}
+
+.tofb {
+    color: #5b83d7;
+    transition: 0.3s;
+}
+
+.tofb:hover {
+    color: #00329f;
+    transition: 0.3s;
+    transform: scale(1.2);
+    
+}
+
+.toig {
+    color: rgb(243, 116, 47);
+    transition: 0.3s;
+}
+
+.toig:hover{
+    color: rgb(95, 33, 0);
+    transition: 0.3s;
+    transform: scale(1.2);
+    
+}
+
+.togit {
+    color: rgb(0, 0, 42);
+    transition: 0.3s;
+}
+
+.togit:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.iomail {
+    color: #8561df;
+    padding-right: 20px;
+    transition: 0.2s;
+}
+
+.iomail:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.iophone {
+    padding-right: 20px;
+    color: #8561df;
+    transition: 0.2s;
+}
+
+.iophone:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+
+}
+
+@media screen and (max-width: 1050px){
+
+    .contactdiv{
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+
+    .halfmoon{
+        display: none;
+    }
+
+    .rocket {
+        display: none;
+    }
+
+    .touch {
+        padding-top: 800px;
+        padding-left: 0;
+        margin: 0;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .linesthree {
+        padding: 0;
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    .mail {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 150px;
+    }
+
+
+    .number {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .iomail {
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        top: 100px;
+        margin-left: auto; 
+        margin-right: auto; ;
+    }
+
+    .iophone {
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        top: 40px;
+        margin-left: auto; 
+        margin-right: auto; ;
+    }
+
+    .socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        padding-bottom: 50px;
+    }
+
+    .tofb {
+        padding-right: 50px;
+    }
+
+    .toig {
+        padding-right: 50px;
+    }
+
+    .contactdiv {
+        height: 100px;
+    }
+
+}

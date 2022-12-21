@@ -1,0 +1,165 @@
+
+
+.abouttt {
+    height: 1350px;
+    width: 50vw;
+}
+
+.image {
+    z-index: 1;
+}
+
+.aboutme {
+    padding-top: 350px;
+    color: rgb(255, 0, 51);
+    font-size: 6rem;
+    padding-left: 8vw;
+    margin-bottom: 0;
+    z-index: 0;
+}
+
+.lovecode{
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding-left: 8vw;
+    padding-bottom: 1vw;
+    font-size: 2.5rem;
+}
+
+.buildweb {
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding-top: 0;
+    padding-left: 8vw;
+    font-size: 2.5rem;
+}
+
+.aboutmore {
+    z-index: 1;
+    text-decoration: none;
+}
+
+.aboutother {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(210, 66, 71);
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-left: 8vw;
+    padding: 15px 15px 15px 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+
+.aboutother:hover {
+    transition: 0.4s;
+    background-color: rgb(234, 120, 249);
+    transform: scale(1.1);
+}
+
+.spaceman {
+    position: absolute;
+    z-index: -1;
+    width: 1300px;;
+    padding-top: 360px;
+    left: 20vw;
+    border-radius: 50px;
+}
+
+.saturn {
+    padding-top: 30rem;
+    padding-left: 25rem;
+    position: absolute;
+    width: 30rem;
+}
+
+
+.aboutdiv {
+    display: flex;
+}
+
+.linestwo {
+    padding: 0;
+    margin: 0;
+    padding-left: 7vw;
+}
+
+
+
+
+
+@media screen and (max-width: 1050px){
+    .abouttt {
+        width: 100%;
+        margin-top: 350px;
+        height: 400px;
+        z-index: 2;
+    }
+
+    .aboutmore {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .aboutother {
+        padding: 15px 15px 15px 15px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .aboutme {
+        color: rgb(255, 0, 51);
+        font-weight: bold;
+        text-align: center;
+        font-size: 5rem;
+        padding: 0;
+        padding-top: 420px;
+        margin-bottom: 50px;
+    }
+
+    .lovecode {
+        font-size: 2rem;
+        padding-left: 0;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .buildweb {
+        font-size: 2rem;
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .spaceman {
+        display: none;
+    }
+
+    .linestwo {
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    .saturn {
+        padding: 0;
+        padding-top: 50rem;
+        margin: 0;
+        width: 23rem;
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+}
