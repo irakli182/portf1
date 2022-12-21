@@ -173,7 +173,7 @@ const Aboutother = () => {
 
     <div className='footer'>
       <p className='contact'>CONTACT ME</p>
-      <p className='mail3'>iraklibusiness@gmail.com</p>
+      <p className='mail3'>iraklibusiness1@gmail.com</p>
       <p className='phone'> +995 555 411 337</p>
     </div>
 
