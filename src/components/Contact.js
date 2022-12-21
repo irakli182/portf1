@@ -28,7 +28,7 @@ const Contact = () => {
             <img className='linesthree' src={lines}></img>
             </LightSpeed>
             <Fade left delay={200}>
-            <p className='mail'><IoMail size={40} className='iomail'></IoMail> iraklibusiness@gmail.com</p>
+            <p className='mail'><IoMail size={40} className='iomail'></IoMail> iraklibusiness1@gmail.com</p>
             <p className='number'><FaPhoneAlt size={40} className='iophone'></FaPhoneAlt>+995 555 411 337</p>
             </Fade>
 
